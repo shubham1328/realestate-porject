@@ -609,3 +609,9 @@ button:hover {
 .contact form button:hover::before {
   width: 100%;
 }
+
+.name-li{
+  font-size: 30px;
+  margin-left: 30px;
+  font-weight: 600;
+}
