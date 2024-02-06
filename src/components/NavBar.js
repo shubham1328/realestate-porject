@@ -1,43 +1,7 @@
-import { useState, useEffect } from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../assets/img/icon-estate.png'
-// import navIcon1 from '../assets/img/nav-icon1.svg';
-// import navIcon2 from '../assets/img/nav-git.png';
-// import navIcon3 from '../assets/img/youtube.png';
-// import resume from '../assets/img/Shubham-resume.pdf'
-// import { HashLink } from 'react-router-hash-link';
-import Projects from './Projects'
-
-import { Link } from 'react-router-dom';
 
 
 function NavBar() {
-    const [ activeLink, setActiveLink ] = useState('home');
-    // const [ scrolled, setScolled ] = useState(false);
-
-    // useEffect(() => {
-    //     const onScroll = () => {
-    //         if(window.screenY > 50){
-    //             setScolled(true)
-    //         }else{
-    //             setScolled(false)
-    //         }
-    //     }
-
-    //     window.addEventListener("scroll" , onScroll);
-
-    //     return () => window.removeEventListener,("scroll", onScroll);
-    // }, [])
-
-    const onUpdateActiveLink = (value) => {
-        // setActiveLink(value);
-        console.log('')
-    }
-
-    // const onResumeClick = () => {
-    //     console.log("Resume Download")
-    // }
 
   return (
     <div>
@@ -60,7 +24,7 @@ function NavBar() {
           Projects
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="/project1" target='blank'>Project 1</a>
+          <a className="dropdown-item" href="#" target='blank'>Project 1</a>
           <a className="dropdown-item" href="/project2" target='blank'>Project 2</a>
           <div className="dropdown-divider"></div>
         </div>
